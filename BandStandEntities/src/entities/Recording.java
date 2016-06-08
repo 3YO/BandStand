@@ -1,6 +1,5 @@
 package entities;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,7 +10,7 @@ import javax.persistence.Table;
 
 @Entity
 
-@Table(name="RECORDING")
+@Table(name="recording")
 public class Recording {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)

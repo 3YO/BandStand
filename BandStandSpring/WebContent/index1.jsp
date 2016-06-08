@@ -248,7 +248,10 @@ body {
 									user@test.com. </b> <br> If you'd like to log in as an <b>
 									admin </b> use the email address <b> admin@test.com. </b> <br>
 								If you'd like to log in as a <b> band </b> use the email address
-								<b> band@band.com. </b>
+								<b> band@test.com. </b>
+								
+								<br><br>
+								The password is <b>password</b> for all.
 							</div>
 						</div>
 

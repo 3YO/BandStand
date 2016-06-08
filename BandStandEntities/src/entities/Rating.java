@@ -1,6 +1,5 @@
 package entities;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,7 +9,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "RATING")
+@Table(name = "rating")
 public class Rating {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
